@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.env
+.venv
+
+# Node
+node_modules/
+frontend/build/
+
+# Models
+*.h5
+*.pkl
+*.pt
+*.tflite
+
+# Database
+*.db
+*.sqlite
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

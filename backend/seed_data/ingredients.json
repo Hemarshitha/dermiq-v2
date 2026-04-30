@@ -1,0 +1,244 @@
+[
+  {
+    "name": "Salicylic Acid",
+    "category": "BHA Exfoliant",
+    "benefits": ["Exfoliates inside pores", "Reduces acne", "Anti-inflammatory", "Oil control"],
+    "skin_types": ["oily", "acne-prone", "combination"],
+    "contraindications": ["Aspirin allergy", "Pregnancy (high doses)"],
+    "comedogenic": 0,
+    "safety_rating": 8,
+    "ph_optimal": "3.0-4.0"
+  },
+  {
+    "name": "Niacinamide",
+    "category": "Vitamin B3",
+    "benefits": ["Oil regulation", "Pore minimization", "Brightening", "Barrier repair"],
+    "skin_types": ["all"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10,
+    "compatible_with": ["Most ingredients"]
+  },
+  {
+    "name": "Hyaluronic Acid",
+    "category": "Humectant",
+    "benefits": ["Deep hydration", "Plumping", "Fine line reduction", "Barrier support"],
+    "skin_types": ["all"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Retinol",
+    "category": "Retinoid",
+    "benefits": ["Anti-aging", "Cell turnover", "Collagen production", "Acne treatment"],
+    "skin_types": ["mature", "acne-prone", "normal"],
+    "contraindications": ["Pregnancy", "Breastfeeding", "Sensitive skin"],
+    "comedogenic": 0,
+    "safety_rating": 6,
+    "warning": "Start with low concentration (0.25%) and use at night"
+  },
+  {
+    "name": "Vitamin C",
+    "category": "Antioxidant",
+    "benefits": ["Brightening", "UV protection", "Collagen synthesis", "Dark spot reduction"],
+    "skin_types": ["all"],
+    "contraindications": ["Very sensitive skin"],
+    "comedogenic": 0,
+    "safety_rating": 9,
+    "best_form": "L-Ascorbic Acid 10-20%"
+  },
+  {
+    "name": "Ceramides",
+    "category": "Lipid",
+    "benefits": ["Barrier repair", "Moisture retention", "Protection", "Soothing"],
+    "skin_types": ["all", "especially dry and sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Glycolic Acid",
+    "category": "AHA Exfoliant",
+    "benefits": ["Surface exfoliation", "Brightening", "Texture improvement", "Fine line reduction"],
+    "skin_types": ["normal", "dry", "sun-damaged"],
+    "contraindications": ["Sensitive skin", "Active acne"],
+    "comedogenic": 0,
+    "safety_rating": 7,
+    "ph_optimal": "3.5-4.0"
+  },
+  {
+    "name": "Zinc Oxide",
+    "category": "Mineral Sunscreen",
+    "benefits": ["Broad spectrum UV protection", "Soothing", "Anti-inflammatory"],
+    "skin_types": ["all", "sensitive", "acne-prone"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Fragrance/Parfum",
+    "category": "Additive",
+    "benefits": ["Pleasant scent"],
+    "skin_types": [],
+    "contraindications": ["All skin types", "Sensitive skin", "Allergy-prone"],
+    "comedogenic": 3,
+    "safety_rating": 2,
+    "warning": "Common irritant and allergen"
+  },
+  {
+    "name": "Alcohol Denat",
+    "category": "Solvent",
+    "benefits": ["Quick drying", "Preservative"],
+    "skin_types": [],
+    "contraindications": ["Dry skin", "Sensitive skin"],
+    "comedogenic": 0,
+    "safety_rating": 3,
+    "warning": "Can be drying and irritating"
+  },
+  {
+    "name": "Azelaic Acid",
+    "category": "Dicarboxylic Acid",
+    "benefits": ["Reduces acne", "Treats rosacea", "Brightening", "Anti-inflammatory"],
+    "skin_types": ["all", "acne-prone", "sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 9
+  },
+  {
+    "name": "Lactic Acid",
+    "category": "AHA Exfoliant",
+    "benefits": ["Gentle exfoliation", "Hydration", "Improves texture"],
+    "skin_types": ["dry", "sensitive"],
+    "contraindications": ["Very sensitive skin"],
+    "comedogenic": 0,
+    "safety_rating": 8,
+    "ph_optimal": "3.5-4.5"
+  },
+  {
+    "name": "Tea Tree Oil",
+    "category": "Essential Oil",
+    "benefits": ["Antibacterial", "Reduces acne", "Soothing"],
+    "skin_types": ["oily", "acne-prone"],
+    "contraindications": ["Sensitive skin", "Allergy-prone"],
+    "comedogenic": 2,
+    "safety_rating": 6
+  },
+  {
+    "name": "Benzoyl Peroxide",
+    "category": "Acne Treatment",
+    "benefits": ["Kills acne bacteria", "Reduces inflammation"],
+    "skin_types": ["acne-prone"],
+    "contraindications": ["Sensitive skin"],
+    "comedogenic": 0,
+    "safety_rating": 7
+  },
+  {
+    "name": "Squalane",
+    "category": "Emollient",
+    "benefits": ["Hydration", "Barrier support", "Non-greasy moisture"],
+    "skin_types": ["all", "dry", "sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Panthenol",
+    "category": "Provitamin B5",
+    "benefits": ["Soothing", "Hydration", "Barrier repair"],
+    "skin_types": ["all", "sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Allantoin",
+    "category": "Soothing Agent",
+    "benefits": ["Calming", "Skin repair", "Hydration"],
+    "skin_types": ["all", "sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Green Tea Extract",
+    "category": "Antioxidant",
+    "benefits": ["Anti-inflammatory", "Reduces redness", "Antioxidant protection"],
+    "skin_types": ["all", "acne-prone"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Centella Asiatica",
+    "category": "Herbal Extract",
+    "benefits": ["Healing", "Soothing", "Reduces inflammation"],
+    "skin_types": ["all", "sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Arbutin",
+    "category": "Brightening Agent",
+    "benefits": ["Reduces pigmentation", "Evens skin tone"],
+    "skin_types": ["all"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 9
+  },
+  {
+    "name": "Kojic Acid",
+    "category": "Brightening Agent",
+    "benefits": ["Reduces dark spots", "Brightening"],
+    "skin_types": ["all"],
+    "contraindications": ["Sensitive skin"],
+    "comedogenic": 0,
+    "safety_rating": 7
+  },
+  {
+    "name": "Shea Butter",
+    "category": "Emollient",
+    "benefits": ["Deep moisture", "Barrier repair", "Soothing"],
+    "skin_types": ["dry"],
+    "contraindications": ["Acne-prone skin"],
+    "comedogenic": 3,
+    "safety_rating": 8
+  },
+  {
+    "name": "Urea",
+    "category": "Humectant",
+    "benefits": ["Hydration", "Gentle exfoliation"],
+    "skin_types": ["dry", "rough skin"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 9
+  },
+  {
+    "name": "Aloe Vera",
+    "category": "Botanical Extract",
+    "benefits": ["Soothing", "Hydration", "Healing"],
+    "skin_types": ["all", "sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  },
+  {
+    "name": "Octinoxate",
+    "category": "Chemical Sunscreen",
+    "benefits": ["UVB protection"],
+    "skin_types": ["all"],
+    "contraindications": ["Sensitive skin"],
+    "comedogenic": 1,
+    "safety_rating": 6
+  },
+  {
+    "name": "Titanium Dioxide",
+    "category": "Mineral Sunscreen",
+    "benefits": ["UV protection", "Gentle on skin"],
+    "skin_types": ["all", "sensitive"],
+    "contraindications": [],
+    "comedogenic": 0,
+    "safety_rating": 10
+  }
+]

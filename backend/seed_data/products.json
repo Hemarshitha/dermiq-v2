@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Foaming Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "skin_types": ["oily", "combination", "normal"],
+    "key_ingredients": ["Niacinamide", "Ceramides", "Hyaluronic Acid"],
+    "allergens": [],
+    "price_range": "₹800-1200",
+    "rating": 4.5,
+    "description": "Foaming cleanser that removes excess oil without stripping skin"
+  },
+  {
+    "name": "Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "skin_types": ["dry", "sensitive", "normal"],
+    "key_ingredients": ["Ceramides", "Hyaluronic Acid", "Glycerin"],
+    "allergens": [],
+    "price_range": "₹800-1200",
+    "rating": 4.6,
+    "description": "Gentle hydrating cleanser for dry and sensitive skin"
+  },
+  {
+    "name": "Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "skin_types": ["oily", "combination", "acne-prone"],
+    "key_ingredients": ["Niacinamide", "Zinc PCA"],
+    "allergens": [],
+    "price_range": "₹600-900",
+    "rating": 4.7,
+    "description": "Reduces appearance of blemishes and congestion"
+  },
+  {
+    "name": "Hyaluronic Acid 2% + B5",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "skin_types": ["all"],
+    "key_ingredients": ["Hyaluronic Acid", "Vitamin B5"],
+    "allergens": [],
+    "price_range": "₹600-900",
+    "rating": 4.6,
+    "description": "Deep hydration for all skin types"
+  },
+  {
+    "name": "Salicylic Acid 2% Solution",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "skin_types": ["oily", "acne-prone"],
+    "key_ingredients": ["Salicylic Acid"],
+    "allergens": [],
+    "price_range": "₹500-700",
+    "rating": 4.4,
+    "description": "Exfoliates inside pores to fight blemishes"
+  },
+  {
+    "name": "Moisturizing Cream",
+    "brand": "Cetaphil",
+    "category": "moisturizer",
+    "skin_types": ["dry", "sensitive", "normal"],
+    "key_ingredients": ["Glycerin", "Vitamin E", "Panthenol"],
+    "allergens": ["fragrance"],
+    "price_range": "₹400-700",
+    "rating": 4.3,
+    "description": "Rich moisturizing cream for dry skin"
+  },
+  {
+    "name": "Oil-Free Moisturizer SPF 35",
+    "brand": "Neutrogena",
+    "category": "moisturizer",
+    "skin_types": ["oily", "combination"],
+    "key_ingredients": ["Hyaluronic Acid", "SPF 35"],
+    "allergens": ["fragrance"],
+    "price_range": "₹700-1000",
+    "rating": 4.2,
+    "description": "Lightweight daily moisturizer with sun protection"
+  },
+  {
+    "name": "Ultra Repair Cream",
+    "brand": "First Aid Beauty",
+    "category": "moisturizer",
+    "skin_types": ["dry", "sensitive", "eczema-prone"],
+    "key_ingredients": ["Colloidal Oatmeal", "Shea Butter", "Ceramides"],
+    "allergens": [],
+    "price_range": "₹2500-3500",
+    "rating": 4.6,
+    "description": "Intense hydration for distressed skin"
+  },
+  {
+    "name": "Sunscreen SPF 50 PA++++",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "skin_types": ["all", "sensitive"],
+    "key_ingredients": ["Mexoryl", "Titanium Dioxide"],
+    "allergens": [],
+    "price_range": "₹1500-2000",
+    "rating": 4.8,
+    "description": "High protection broad-spectrum sunscreen"
+  },
+  {
+    "name": "Glycolic Acid 7% Toning Solution",
+    "brand": "The Ordinary",
+    "category": "toner",
+    "skin_types": ["normal", "combination", "dry"],
+    "key_ingredients": ["Glycolic Acid", "Aloe Vera", "Ginseng"],
+    "allergens": [],
+    "price_range": "₹800-1100",
+    "rating": 4.5,
+    "description": "Gentle exfoliating toner for brightening"
+  }
+]

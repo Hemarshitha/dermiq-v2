@@ -1,0 +1,54 @@
+/* ============================================
+   DERMIQ - Global Theme (Light Brown Aesthetic)
+   ============================================ */
+
+:root {
+  /* Main Brown Palette */
+  --brown-50: #fdf8f0;
+  --brown-100: #f9edd8;
+  --brown-200: #f2dbb4;
+  --brown-300: #e8c48a;
+  --brown-400: #d4a55e;
+  --brown-500: #c4913c;
+  --brown-600: #b07a2e;
+  --brown-700: #8b5e24;
+  --brown-800: #6d4a1f;
+  --brown-900: #4a3218;
+  
+  /* Accent Colors */
+  --gold: #d4a55e;
+  --cream: #fdf8f0;
+  --sand: #e8c48a;
+  --dark-brown: #4a3218;
+  --light-cream: #faf6ee;
+  
+  /* UI Colors */
+  --text-primary: #4a3218;
+  --text-secondary: #8b5e24;
+  --text-light: #b07a2e;
+  --bg-primary: #fdf8f0;
+  --bg-secondary: #f9edd8;
+  --bg-surface: #ffffff;
+  --border-color: #f2dbb4;
+  --shadow: 0 4px 6px rgba(74, 50, 24, 0.1);
+  --shadow-lg: 0 10px 25px rgba(74, 50, 24, 0.15);
+  
+  /* Bot & User Messages */
+  --bot-bg: #f9edd8;
+  --bot-text: #4a3218;
+  --user-bg: #8b5e24;
+  --user-text: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: linear-gradient(135deg, #fdf8f0 0%, #f9edd8 50%, #f2dbb4 100%);
+  color: var(--text-primary);
+  min-height: 100vh;
+}

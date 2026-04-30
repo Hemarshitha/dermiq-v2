@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Fragrance",
+    "category": "Synthetic/Additive",
+    "common_in": ["Perfumes", "Creams", "Lotions", "Shampoos"],
+    "severity": "Common",
+    "alternatives": ["Fragrance-free products", "Essential oil-free formulas"]
+  },
+  {
+    "name": "Parabens",
+    "category": "Preservative",
+    "common_in": ["Moisturizers", "Foundations", "Shampoos"],
+    "severity": "Moderate",
+    "alternatives": ["Phenoxyethanol", "Sodium benzoate"]
+  },
+  {
+    "name": "Sulfates (SLS/SLES)",
+    "category": "Surfactant",
+    "common_in": ["Cleansers", "Shampoos", "Toothpaste"],
+    "severity": "Mild to Moderate",
+    "alternatives": ["Cocamidopropyl betaine", "Decyl glucoside"]
+  },
+  {
+    "name": "Lanolin",
+    "category": "Emollient",
+    "common_in": ["Lip balms", "Creams", "Ointments"],
+    "severity": "Moderate",
+    "alternatives": ["Shea butter", "Coconut oil", "Jojoba oil"]
+  },
+  {
+    "name": "Nickel",
+    "category": "Metal",
+    "common_in": ["Jewelry", "Cosmetic pigments"],
+    "severity": "High",
+    "alternatives": ["Nickel-free cosmetics"]
+  }
+]
