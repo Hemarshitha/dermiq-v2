@@ -1,10 +1,3 @@
-Here's your complete README.md file:
-
----
-
-## **Replace your `README.md` with this:**
-
-```markdown
 # 🧴 DermIQ - Explainable AI Skincare Recommendation System
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
@@ -15,64 +8,58 @@ Here's your complete README.md file:
 [![Gemini](https://img.shields.io/badge/AI-Gemini-purple)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+---
+
 ## 📋 Overview
 
-**DermIQ** is an intelligent, explainable AI-based skincare recommendation system that combines **Large Language Models (LLM)**, **Retrieval-Augmented Generation (RAG)**, **Computer Vision (CNN)**, and **Optical Character Recognition (OCR)** to provide personalized, allergy-safe skincare advice.
+**DermIQ** is an intelligent, explainable AI-based skincare recommendation system that integrates:
 
-The system analyzes user skin conditions through conversational AI, image analysis, and allergy reports to generate tailored product recommendations, traditional remedies, and complete skincare routines.
+* Large Language Models (LLM)
+* Retrieval-Augmented Generation (RAG)
+* Computer Vision (CNN)
+* Optical Character Recognition (OCR)
+
+to provide **personalized, allergy-safe skincare recommendations**.
+
+It analyzes:
+
+* User conversations
+* Skin images
+* Medical/allergy reports
+
+to generate:
+
+* Product recommendations
+* Traditional remedies
+* Complete skincare routines
 
 ---
 
 ## 🎯 Key Features
 
-| Feature | Description | Technology |
-|---------|-------------|------------|
-| 💬 **AI Chatbot** | Conversational skincare assistant | LLM (Gemini via OpenRouter) |
-| 📷 **Skin Analysis** | Image-based skin type & concern detection | CNN (MobileNetV2 / OpenCV) |
-| 📄 **Allergen Detection** | Extract allergens from medical reports | OCR (Tesseract) + LLM |
-| 💊 **Product Recommendations** | Personalized safe product suggestions | RAG + Vector Search |
-| 🌿 **Traditional Remedies** | Natural/home remedies for skin concerns | LLM + Knowledge Base |
-| 🌅 **Routine Generator** | Morning/night/weekly skincare routines | Fine-tuned LLM |
-| 🛡️ **Allergy Safety** | Ingredient-level allergen verification | RAG + Rule Engine |
-| 📊 **Explainable AI** | Reasoning behind every recommendation | LLM Chain-of-Thought |
+| Feature                    | Description                       | Technology   |
+| -------------------------- | --------------------------------- | ------------ |
+| 💬 AI Chatbot              | Conversational skincare assistant | Gemini (LLM) |
+| 📷 Skin Analysis           | Detects skin type & issues        | OpenCV / CNN |
+| 📄 Allergen Detection      | Extracts allergens from reports   | OCR + LLM    |
+| 💊 Product Recommendations | Personalized safe products        | RAG          |
+| 🌿 Traditional Remedies    | Natural skincare suggestions      | LLM          |
+| 🌅 Routine Generator       | Daily skincare plans              | LLM          |
+| 🛡️ Allergy Safety         | Ingredient-level filtering        | RAG + Rules  |
+| 📊 Explainable AI          | Reasoning behind outputs          | LLM          |
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    FRONTEND (React + TypeScript)          │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐   │
-│  │   Chat   │ │ Analysis │ │ Results  │ │ Routine  │   │
-│  └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘   │
-└───────┼────────────┼────────────┼────────────┼─────────┘
-        │            │            │            │
-        ▼            ▼            ▼            ▼
-┌─────────────────────────────────────────────────────────┐
-│                  BACKEND (FastAPI + Python)              │
-│  ┌──────────────────────────────────────────────────┐   │
-│  │              API Routes (REST)                    │   │
-│  │  /api/chatbot  /api/analysis  /api/ocr           │   │
-│  │  /api/recommendations  /api/routine              │   │
-│  └──────────────────────────────────────────────────┘   │
-│  ┌──────────────────────────────────────────────────┐   │
-│  │              AI/ML Services                       │   │
-│  │  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐   │   │
-│  │  │  LLM   │ │  CNN   │ │  OCR   │ │  RAG   │   │   │
-│  │  │Service │ │Service │ │Service │ │Service │   │   │
-│  │  └────────┘ └────────┘ └────────┘ └────────┘   │   │
-│  └──────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────┘
-        │            │            │            │
-        ▼            ▼            ▼            ▼
-┌─────────────────────────────────────────────────────────┐
-│                    DATA LAYER                             │
-│  ┌──────────┐ ┌──────────┐ ┌──────────────────────┐    │
-│  │ SQLite   │ │  Vector  │ │    Knowledge Base    │    │
-│  │ Database │ │   Store  │ │  (Products/Ingreds)  │    │
-│  └──────────┘ └──────────┘ └──────────────────────┘    │
-└─────────────────────────────────────────────────────────┘
+Frontend (React + TypeScript)
+        ↓
+Backend (FastAPI)
+        ↓
+AI Services (LLM + CNN + OCR + RAG)
+        ↓
+Database (SQLite + Vector Store + Knowledge Base)
 ```
 
 ---
@@ -80,68 +67,87 @@ The system analyzes user skin conditions through conversational AI, image analys
 ## 🔧 Technology Stack
 
 ### Frontend
-| Tool | Purpose |
-|------|---------|
-| **React 18** | UI Framework |
-| **TypeScript** | Type-safe development |
-| **CSS3** | Custom styling with light brown aesthetic |
-| **Fetch API** | HTTP requests to backend |
+
+* React 18
+* TypeScript
+* CSS3
+* Fetch API
 
 ### Backend
-| Tool | Purpose |
-|------|---------|
-| **FastAPI** | High-performance API framework |
-| **Python 3.10** | Core programming language |
-| **Uvicorn** | ASGI server |
-| **Pydantic** | Data validation |
-| **SQLAlchemy** | ORM for database |
-| **SQLite** | Lightweight database |
 
-### AI / Machine Learning
-| Tool | Purpose |
-|------|---------|
-| **Google Gemini 2.0 Flash** | Primary LLM for chat, recommendations & routines |
-| **OpenRouter API** | API gateway for LLM access |
-| **OpenCV** | Computer vision for skin image analysis |
-| **Tesseract OCR** | Text extraction from allergy reports |
-| **PyPDF2** | PDF parsing for medical reports |
+* FastAPI
+* Python 3.10
+* Uvicorn
+* Pydantic
+* SQLAlchemy
+* SQLite
+
+### AI / ML
+
+* Google Gemini 2.0 Flash (via OpenRouter)
+* OpenCV
+* Tesseract OCR
+* PyPDF2
 
 ---
 
 ## 🧠 Where GenAI is Used
 
 ### 1. Fine-Tuning
-- **Location:** `backend/fine_tuning/`
-- **Purpose:** Domain-specific training on dermatological data
-- **Dataset:** Skincare instructions, ingredient analysis, routine creation
-- **Method:** QLoRA fine-tuning on Mistral/Llama models (prepared, can be executed on GPU)
+
+* **Location:** `backend/fine_tuning/`
+* Domain-specific dermatology dataset
+* QLoRA fine-tuning (Mistral/Llama models)
+
+---
 
 ### 2. RAG (Retrieval-Augmented Generation)
-- **Location:** `backend/rag/`
-- **Purpose:** Retrieve relevant skincare knowledge before generating responses
-- **Knowledge Base:** 10 products, 26 ingredients with benefits, contraindications
-- **Flow:** User query → Retrieve similar products/ingredients → Augment prompt → Generate response
+
+* **Location:** `backend/rag/`
+* Knowledge base:
+
+  * 10 products
+  * 26 ingredients
+* Flow:
+
+  ```
+  Query → Retrieval → Augmentation → Generation
+  ```
+
+---
 
 ### 3. LLM Integration
-- **Location:** `backend/app/services/llm_service.py`
-- **Model:** Google Gemini 2.0 Flash (via OpenRouter)
-- **Uses:**
-  - Chatbot conversations
-  - Skin data extraction from natural language
-  - Allergen identification from OCR text
-  - Product recommendation explanations
-  - Personalized routine generation
-  - Chain-of-thought reasoning for explainability
+
+* **Location:** `backend/app/services/llm_service.py`
+* Uses:
+
+  * Chatbot
+  * Recommendations
+  * Routine generation
+  * Allergen extraction
+  * Explainability
+
+---
 
 ### 4. Computer Vision
-- **Location:** `backend/app/services/cnn_service.py`
-- **Method:** Image brightness, texture, and color analysis using OpenCV
-- **Detects:** Skin type (oily/dry/combination), acne severity, pigmentation
-- **Future:** CNN model training on Kaggle for deep learning-based analysis
+
+* **Location:** `backend/app/services/cnn_service.py`
+* Detects:
+
+  * Skin type
+  * Acne
+  * Pigmentation
+
+---
 
 ### 5. OCR + LLM Pipeline
-- **Location:** `backend/app/services/ocr_service.py`
-- **Flow:** Upload report → Tesseract extracts text → LLM identifies allergens → Maps to product filters
+
+* **Location:** `backend/app/services/ocr_service.py`
+* Flow:
+
+  ```
+  Upload → OCR → LLM → Allergen Mapping
+  ```
 
 ---
 
@@ -149,56 +155,27 @@ The system analyzes user skin conditions through conversational AI, image analys
 
 ```
 dermiq-v2/
-├── frontend/                    # React + TypeScript
+├── frontend/
 │   ├── src/
-│   │   ├── App.tsx              # Main application
-│   │   ├── App.css              # Light brown theme styles
+│   │   ├── App.tsx
+│   │   ├── App.css
 │   │   └── pages/
-│   │       ├── Login.tsx        # Login page
-│   │       └── SignUp.tsx       # Sign up page
-│   └── package.json
+│   │       ├── Login.tsx
+│   │       └── SignUp.tsx
 │
-├── backend/                     # FastAPI + Python
-│   ├── main.py                  # Application entry point
-│   ├── requirements.txt         # Python dependencies
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
 │   ├── app/
-│   │   ├── api/routes/          # REST API endpoints
-│   │   │   ├── chatbot.py       # Chat endpoint
-│   │   │   ├── analysis.py      # Image analysis endpoint
-│   │   │   ├── ocr.py           # Allergen extraction endpoint
-│   │   │   ├── recommendations.py # Product recommendations
-│   │   │   └── routine.py       # Routine generation
+│   │   ├── api/routes/
 │   │   ├── core/
-│   │   │   ├── config.py        # Application configuration
-│   │   │   └── database.py      # Database setup
-│   │   ├── models/              # Database models
-│   │   │   ├── user.py
-│   │   │   ├── product.py
-│   │   │   └── analysis.py
-│   │   └── services/            # AI/ML Services
-│   │       ├── llm_service.py   # LLM (Gemini via OpenRouter)
-│   │       ├── cnn_service.py   # Computer Vision
-│   │       ├── ocr_service.py   # OCR Engine
-│   │       └── rag_service.py   # RAG System
-│   ├── fine_tuning/             # Fine-tuning scripts
-│   │   ├── prepare_data.py
-│   │   └── train.py
-│   ├── rag/                     # RAG implementation
-│   │   ├── vector_store.py
-│   │   └── retriever.py
-│   ├── ml/                      # ML models
-│   │   ├── cnn/
-│   │   └── ocr/
-│   └── seed_data/               # Knowledge base
-│       ├── products.json        # 10 products
-│       ├── ingredients.json     # 26 ingredients
-│       └── allergens.json       # Allergen database
+│   │   ├── models/
+│   │   └── services/
 │
 ├── database/
-│   └── schema.sql               # Database schema
-├── docker-compose.yml           # Docker configuration
-├── .env.example                 # Environment variables template
-└── README.md                    # This file
+├── docker-compose.yml
+├── .env.example
+└── README.md
 ```
 
 ---
@@ -206,82 +183,88 @@ dermiq-v2/
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- Tesseract OCR (for allergy report scanning)
+
+* Python 3.10+
+* Node.js 18+
+* Tesseract OCR
+
+---
 
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/yourusername/dermiq-v2.git
 cd dermiq-v2
+```
 
-# Backend setup
+---
+
+### Backend Setup
+
+```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+venv\Scripts\activate
 pip install -r requirements.txt
-
-# Set your API key
-# Create .env file in backend/ with:
-# GEMINI_API_KEY=your-openrouter-key
-
-# Start backend
 python main.py
+```
 
-# Frontend setup (new terminal)
+---
+
+### Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm start
 ```
 
-### Access
-- **Frontend:** http://localhost:3000
-- **Backend API:** http://localhost:8000
-- **API Documentation:** http://localhost:8000/docs
+---
+
+## 🌐 Access
+
+* Frontend: http://localhost:3000
+* Backend: http://localhost:8000
+* API Docs: http://localhost:8000/docs
 
 ---
 
 ## 🔑 API Keys Required
 
-| Service | Purpose | Get From |
-|---------|---------|----------|
-| **OpenRouter** | LLM access (Gemini) | https://openrouter.ai/keys |
-| **Google Gemini** | Alternative LLM | https://aistudio.google.com/apikey |
+| Service       | Purpose       |
+| ------------- | ------------- |
+| OpenRouter    | Gemini access |
+| Google Gemini | LLM           |
 
 ---
 
 ## 📊 Data Sources
 
-| Source | Content |
-|--------|---------|
-| Sephora Product Database | 2,281 real skincare products |
-| INCI Ingredient Database | 112 cosmetic ingredients |
-| EU Baseline Series | 45 clinically validated allergens |
-| Custom Knowledge Base | 10 products, 26 ingredients (seed data) |
+* Sephora dataset
+* INCI ingredient database
+* EU allergen dataset
+* Custom dataset
 
 ---
 
 ## 🎨 Design
 
-- **Theme:** Light brown aesthetic with cream, sage, and gold accents
-- **Typography:** Georgia serif font for elegance
-- **Responsive:** Mobile-friendly design
-- **Pages:** Home, Chat, Analysis, Results, My Routine, Login, Sign Up
-
----
-
-## 📝 License
-
-This project is for academic purposes.
+* Light brown aesthetic
+* Clean UI
+* Mobile responsive
 
 ---
 
 ## 👥 Authors
 
-- S. Hemarshitha
-- Pranav Vaisireddy
-- Shreya E R
+* S. Hemarshitha
+* Pranav Vaisireddy
+* Shreya E R
 
 **Amrita Vishwa Vidyapeetham, Coimbatore**
+
+---
+
+## 📝 License
+
+MIT License (Academic Use)
